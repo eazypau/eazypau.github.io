@@ -1,0 +1,1 @@
+import{_ as t,c as s,o,a as e}from"./entry-8f801949.mjs";const c={},a={class:"py-5 px-10 bg-amber-300"},n=e("p",{class:"font-semibold text-[50px]"},"home page",-1),_=e("p",null,"test deployment to github page",-1),r=[n,_];function d(p,i){return o(),s("div",a,r)}var m=t(c,[["render",d]]);export{m as default};
