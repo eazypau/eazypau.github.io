@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footerBtn {
+  @apply flex items-center border-2 p-2 text-lg rounded-xl border-green-500 hover:shadow-lg hover:bg-green-400 transition ease-linear duration-500;
+}
+
+.footerContainer {
+  @apply flex justify-around font-roboto py-10 bg-green-500 font-semibold tracking-wide;
+}
+
+.header {
+  @apply w-screen h-screen flex flex-col justify-center px-20 bg-green-50;
+}
+
+.intro {
+  @apply py-20 flex justify-center font-roboto text-xl bg-green-50;
+}
+
+.navbar {
+    @apply flex justify-between items-center w-screen p-4 font-roboto tracking-wide bg-green-500;
+}
+
+.navBtn {
+  @apply hover:opacity-60 transition ease-in-out duration-500
+}
+
+.card {
+  @apply border-2 w-max rounded-3xl p-2 bg-white font-roboto text-lg hover:shadow-2xl filter grayscale hover:grayscale-0 transition ease-linear duration-500
+}
+
+.blogCard {
+  @apply border-2 w-80 rounded-3xl px-6 py-10 bg-white font-roboto text-lg hover:shadow-2xl filter grayscale hover:grayscale-0 transition ease-linear duration-500
+}
+
+.careerArrow {
+  @apply hover:animate-wiggle border-2 border-green-50 rounded-full active:border-yellow-300
+}
